@@ -21,8 +21,9 @@ dependencies:
     - open3d
     - trimesh
     - pymcubes
-    - pytorch3d
-    - nvdiffrast @ git+https://github.com/NVlabs/nvdiffrast
     - lpips
     - scikit-image
     - imageio
+# Note: After creating the environment, manually install:
+#   pip install --no-build-isolation git+https://github.com/NVlabs/nvdiffrast
+#   pip install pytorch3d -f https://dl.fbaipublicfiles.com/pytorch3d/packaging/wheels/py39_cu118_pyt201/download.html
